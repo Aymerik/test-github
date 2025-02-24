@@ -16,25 +16,6 @@ body, html {
     text-align: center;
 }
 
-/* Bouton avec transition */
-.animated-button {
-    background-color: #4C5C68;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 30px;
-    font-size: 1.2em;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-}
-
-.animated-button:hover {
-    background-color: #F76C6C;
-    transform: scale(1.1);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
 /* Boîte animée avec keyframes */
 .bouncing {
     width: 100px;
